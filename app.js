@@ -44,7 +44,7 @@ class App {
    configurarMiddlewares() {
     // Origens permitidas (adiciona localhost pra dev)
         const allowedOrigins = [
-            'https://frontend-ppe-iff.vercel.app',
+            'https://cardapio-digital-iff.vercel.app',
             'http://localhost:5173'
         ];
 
@@ -127,3 +127,4 @@ let appInstance
 })();
 
 module.exports = appInstance.app;
+
